@@ -1,4 +1,4 @@
-# ignore files >
+# ignored files >
 
 *.json
 .editorconfig
@@ -11,3 +11,4 @@ favicon.ico
 environments/
 assets/
 node_modules/
+movies/
