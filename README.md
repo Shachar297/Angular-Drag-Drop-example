@@ -1,5 +1,5 @@
 
-# Only Server side (Angular) Drag & Drop.
+* Only Server side (Angular) Drag & Drop.
 # See Documentation.
 # See app.module.ts
  
@@ -10,6 +10,6 @@
 
 
 <li> 
-* Layout Component refers to the Drag & Drop component.
-* You can ignore all movies referenced files or folders.
+* Layout Component refers to the Drag & Drop component. <br>
+* You can ignore all <span style="color:green"> Movies </span> referenced files or folders.
 </li>
