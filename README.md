@@ -1,6 +1,6 @@
 
 * Only Server side (Angular) Drag & Drop.
-# See Documentation.
+# <a href="https://material.angular.io/cdk/drag-drop/overview" target="_blank"> See Documentation. </a>
 # See app.module.ts
  
 * Documentation https://material.angular.io/cdk/drag-drop/overview
