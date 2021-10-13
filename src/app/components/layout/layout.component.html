@@ -1,0 +1,24 @@
+<div class="container">
+
+    <div class="first"
+    cdkDropList
+    [cdkDropListData]="numbers"
+    (cdkDropListDropped)="drop($event)"
+    [cdkDropListConnectedTo]="otherList"
+    #firstList="cdkDropList">
+    <div cdkDrag *ngFor="let i of numbers" class="item"> {{i + 1}} </div>
+    </div>
+
+    <div class="second"
+    cdkDropList
+    [cdkDropListData]="twoNums"
+    (cdkDropListDropped)="drop($event)"
+    [cdkDropListConnectedTo]="firstList"
+    #otherList="cdkDropList">
+    <div *ngFor="let num of twoNums" class="item"> {{num + 1}} </div>
+
+    </div>
+
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,12 @@
+# ignore files >
+
+*.json
+.editorconfig
+.browserslistrc
+Karma.conf.js
+e2e/
+*.css
+polyfills.ts
+favicon.ico
+environments/
+assets/
