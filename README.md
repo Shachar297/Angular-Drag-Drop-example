@@ -9,4 +9,7 @@
 * see ./src/app/modules/app.module.ts
 
 
-# Movies Component refers to the main component
+<li> 
+* Layout Component refers to the Drag & Drop component.
+* You can ignore all movies referenced files or folders.
+</li>
