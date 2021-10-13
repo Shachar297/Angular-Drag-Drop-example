@@ -4,6 +4,7 @@
 .editorconfig
 .browserslistrc
 Karma.conf.js
+test.ts
 e2e/
 *.css
 polyfills.ts
